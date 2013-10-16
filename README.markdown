@@ -57,11 +57,11 @@ Input file could be one or multiple text files (.txt or .csv). Each line records
      
 	Mutiple files should be separated by comma (,). The connected string shoud be placed in the double quotes (""). No sapce between each stage.
 
--	Second parameter: Output file name.
+-	Second parameter: Output file
 
 	If it does not exist, the TLP will create it.
 	
--	Third parameter:
+-	Third parameter: Stages anme
 
 	Stage name shown in the input files. Mutiple stages should be separated by comma (,). The connected string shoud placed in the double quotes ("").  No sapce between each stage.
 
