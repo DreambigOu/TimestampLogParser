@@ -2,6 +2,8 @@ Timestamp Log Parser (TLP)
 
 Version:0.4
 Author: Dreambig Ou (dreambig.ou[at]gmail.com)
+Language: C# (.Net 4.5) on Vistual Studio 2012
+Platform: Windows
 
 Description:
     Timestamp Log Parser (TLP) is deisgned to pre-process the log data. Developers can use the output file for other numerical analyis software such as Excel. TLP is for calcuating the time consuming between each stage in software components. For example, a messages oriented middleware (MOM) is using to deliver the message to another software component. We want to evaluate how much time does a message spend between each processing stage of software components.
