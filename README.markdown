@@ -40,6 +40,7 @@ Input file could be one or multiple text files (.txt or .csv). Each line records
 	Description: To identify which stage when records the data.
 
 - Timestamp:
+
 	Datatype: integer.
     
 	Description: Current version of TLP only supports integer. Timestamp should be monotonic increasing (avoid time drift problem in the OS). For unix developers, you can use "CLOCK_MONOTONIC" in "clock_gettime". We will make it support other formated timestamp in the next version.
@@ -70,3 +71,19 @@ Input file could be one or multiple text files (.txt or .csv). Each line records
 	The sample input files are Input1.txt to Input3.txt. There are two types of message (i.e., "event" shown in the input file) and one message each. There are three components to process the messages and each component has two stage ex: T1 (into the component) and T2 (out of the component) for component 1. (Note: "Stage1,Stage2,Stage3\" should be in the order.)
 
         Try: .\TimestampLogParser.exe "Input1.txt,Input2.txt,Input3.txt" Output.txt "T1,T2,T3,T4,T5,T6"
+
+##Copyright and license##
+
+Copyright 2013 Dreambig Ou.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this work except in compliance with the License.
+You may obtain a copy of the License in the LICENSE file, or at:
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
